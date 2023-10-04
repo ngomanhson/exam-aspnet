@@ -1,0 +1,52 @@
+﻿@model exam_aspnet.Models.Department.EditModel;
+@{
+}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                @using (Html.BeginForm("Create", "Department", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.name, new { @class = "col-sm-2 col-form-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(m => m.name, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.code, new { @class = "col-sm-2 col-form-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(m => m.code, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.code, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.location, new { @class = "col-sm-2 col-form-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(m => m.location, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.location, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.LabelFor(m => m.NumberOfPersonals, new { @class = "col-sm-2 col-form-label" })
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(m => m.NumberOfPersonals, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.NumberOfPersonals, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Add</button>
+                    <a href="/brand" class="btn btn-success">List brand</a>
+                }
+
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</section>

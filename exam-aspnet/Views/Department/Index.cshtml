@@ -1,0 +1,39 @@
+﻿@page
+@{
+}
+
+<div class="text-center mb-3">
+    <h1>List brand</h1>
+</div>
+<div class="col-8 mx-auto">
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.id</td>
+                    <td>@item.name</td>
+                    <td>
+                        <a href="@Url.ActionLink("Edit", "Brand", new { id = item.id})" class="btn btn-success">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+
+                        <a onclick="return confirm('You definitely want to delete @item.name')" href="@Url.ActionLink("Delete", "Brand", new {id=item.id})" class="btn btn-danger">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <a href="/brand/create" class="btn btn-primary">Create brand</a>
+</div>

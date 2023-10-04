@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{646DB520-D4E9-448B-B92E-AE91B658590B}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="exam-aspnet/Program.cs">
+    <Files>
+      <File FileName="exam-aspnet/appsettings.json" Line="10" Column="6" />
+      <File FileName="exam-aspnet/Program.cs" Line="16" Column="29" />
+      <File FileName="exam-aspnet/Entities/Department.cs" Line="6" Column="2" />
+      <File FileName="exam-aspnet/Entities/Employee.cs" Line="11" Column="36" />
+      <File FileName="exam-aspnet/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="exam-aspnet/Entities/DataContext.cs" Line="5" Column="8" />
+      <File FileName="exam-aspnet/Controllers/DepartmentController.cs" Line="25" Column="9" />
+      <File FileName="exam-aspnet/Controllers/EmployeeController.cs" Line="25" Column="10" />
+      <File FileName="exam-aspnet/Views/Department/Create.cshtml" Line="1" Column="1" />
+      <File FileName="exam-aspnet/Models/Department/ViewModel.cs" Line="10" Column="33" />
+      <File FileName="exam-aspnet/Models/Department/EditModel.cs" Line="12" Column="1" />
+      <File FileName="exam-aspnet/Views/Department/Index.cshtml" Line="39" Column="7" />
+      <File FileName="exam-aspnet/Views/Department/Edit.cshtml" Line="52" Column="11" />
+      <File FileName="exam-aspnet/Views/Emloyee/Index.cshtml" Line="1" Column="1" />
+      <File FileName="exam-aspnet/Views/Emloyee/Create.cshtml" Line="1" Column="1" />
+      <File FileName="exam-aspnet/Views/Emloyee/Edit.cshtml" Line="5" Column="1" />
+      <File FileName="exam-aspnet/Models/Emloyee/EditModel.cs" Line="1" Column="1" />
+      <File FileName="exam-aspnet/Models/Emloyee/ViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="exam-aspnet" expanded="True">
+            <Node name="exam-aspnet" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Department" expanded="True" />
+                <Node name="Emloyee" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Department" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.exam-aspnet PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
